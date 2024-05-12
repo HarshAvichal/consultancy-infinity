@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/infinity-icon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>Infinity Consultancy</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+  
+    <nav class="bg-deepBlue">
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+            <a href="/" class="cursor-pointer py-7 pr-7">
+                <h1 class="text-white text-2xl font-bold">INFINITY CONSULTANCY</h1>
+            </a>
+            <lottie-player src="./assets/lottieAnimations/Infinity-animation.json"
+                background="##FFFFFF" speed="1" loop autoplay direction="1" mode="normal"
+                class="absolute select-none w-28 transition-all left-64"></lottie-player>
+            <ul class="flex gap-6">
+                <li
+                    class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    <a href="#service">Services</a>
+                    <div
+                        class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200">
+                    </div>
+                </li>
+                <li
+                    class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    <a href="#About">About</a>
+                    <div
+                        class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200">
+                    </div>
+                </li>
+                <li
+                    class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    <a href="#Enquiry">Enquiry / Contact</a>
+                    <div
+                        class="absolute w-full h-1 bg-lightBlue bottom-0 hidden group-hover:block transition-all duration-200">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+
+    
+
+    <!-- Hero Section -->
+    <section class="relative bg-deepBlue pt-24">
+        <div class="flex items-center w-10/12 max-w-[1080px] flex-row justify-between mx-auto pb-32">
+            <!-- left part -->
+            <div class="space-y-8">
+                <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2]">Expert Tax Guidance for Your
+                    Financial Journey</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="text-white font-mullish text-[18px] leading-7 opacity-70">From Payments to Payouts, We've Got
+                    You Covered: Our comprehensive financial service ensure every aspect of your finances is managed
+                    with expertise."</p>
+            </div>
+            <!-- right part -->
+            <lottie-player src="./assets/lottieAnimations/tax-animation.json"
+                background="transparent" speed="0.5" loop autoplay direction="1" mode="normal"
+                class="h-96 ml-52"></lottie-player>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="bg-grayish" id="service">
+        <div class="relative flex overflow-x-hidden">
+            <div class="py-12 animate-marquee whitespace-nowrap">
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Accounting</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Income-Tax
+                    Return</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;GST Registration &
+                    Return</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Digital Signature
+                    Certificate</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Trade Mark
+                    Registration</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Pan Card / TAN
+                    Number</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;GST & IT Audit</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Computerized Billing
+                    Systems</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Company Formation &
+                    ROC</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Life Insurance</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Health
+                    Insurance</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;General
+                    Insurance</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;TDS Return</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;MSME
+                    Certificate</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Import / Export
+                    Code</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Provident Fund</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Bank Loans</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;CMA Data</span>
+            </div>
+
+            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Accounting</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Income-Tax
+                    Return</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;GST Registration &
+                    Return</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Digital Signature
+                    Certificate</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Trade Mark
+                    Registration</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Pan Card / TAN
+                    Number</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;GST & IT Audit</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Computerized Billing
+                    Systems</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Company Formation &
+                    ROC</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Life Insurance</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Health
+                    Insurance</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;General
+                    Insurance</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;TDS Return</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;MSME
+                    Certificate</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Import / Export
+                    Code</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Provident Fund</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;Bank Loans</span>
+                <span class="mx-4 text-2xl font-bold"><i class="fa-solid fa-circle-dot"></i>&nbsp;CMA Data</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <div id=service class="service-container container bg-white relative">
+        <div class="service-container-left">
+            <h1 class="service-heading">
+                Our Services
+            </h1>
+            <div class="service-subHeading font-mullish">
+                <p class="cursor-pointer">Our comprehensive accounting services cover all aspects of financial
+                    management, ensuring accurate records and compliance with regulatory requirements. From maintaining
+                    ledgers to preparing financial statements, we handle it all, allowing you to focus on growing your
+                    business with confidence.</p>
+                <p class="cursor-pointer">Simplify your tax obligations with our expert income-tax return services.
+                    Whether you're an individual or a business entity, we navigate the complexities of tax laws to
+                    maximize your returns while minimizing liabilities. Trust us to file your returns accurately and on
+                    time, ensuring peace of mind and financial security.</p>
+                <p class="cursor-pointer">Take advantage of our extensive expertise in GST registration and return
+                    filing. We guide you through the process of GST compliance, from initial registration to periodic
+                    return submissions. With our assistance, you can streamline your GST obligations and avoid
+                    penalties, allowing your business to thrive in a competitive market.</p>
+            </div>
+        </div>
+
+        <div class="service-container-right">
+            <img src="./images/userAsset/blob vector.png" class="absolute top-[20%] left-[30%] animate-blob"
+                alt="cant find">
+            <img src="./assets/accounting.png" class="service-logo" alt="">
+            <img src="./assets/GST.png" class="service-logo" alt="">
+            <img src="./assets/Harsh.png" class="service-logo" alt="">
+            <img src="./assets/Health.png" class="service-logo" alt="">
+            <img src="./assets/Lic.png" class="service-logo" alt="">
+            <img src="./assets/software.png" class="service-logo" alt="">
+        </div>
+    </div>
+
+    <!-- About Section  -->
+    <section class="pt-5 mt-16" id="About">
+        <div class="py-12 bg-grayish flex justify-center"><span class="mx-4 text-2xl font-bold"><i
+                    class="fa-solid fa-circle-dot"></i>&nbsp;KNOW MORE ABOUT US</span></div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-section items-center w-10/12 max-w-[1080px]">
+                        <div class="hero-section-left mt-8">
+                            <div class="hero-section-heading">Myself, &nbsp;Nevil Gandhi</div>
+                            <div class="hero-section-heading hero-section-sub-heading">
+                                I am a <span class="role"></span>
+                            </div>
+                            <div class="hero-section-description">
+                                As a dedicated financial advisor with years of experience, I strive to empower
+                                individuals and
+                                businesses alike to achieve their financial goals through personalized guidance and
+                                strategic
+                                planning.
+                            </div>
+                        </div>
+                        <div class="hero-section-right mt-5">
+                            <div class="user-image">
+                                <img src="./images//userAsset/NG.jpg" class="NG-image" alt="">
+                                
+                            </div>
+                            <div class="mt-8">
+                                <h2 class="font-bold">Director <span class="text-blue-900">@InfinityConsultancy</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider 2 -->
+                <div class="swiper-slide">
+                    <div class="hero-section items-center w-10/12 max-w-[1080px]">
+                        <div class="hero-section-left mt-20">
+                            <div class="hero-section-heading vision-heading">VISION</div>
+                            <div class="hero-section-description">
+                                At Infinity Consultancy, our vision is to make financial success accessible to everyone. We imagine a world where individuals and businesses can easily reach their financial dreams with our help. By providing trustworthy advice and tailored solutions, we want to be the go-to partner that helps our clients flourish and succeed in their financial journey
+                            </div>
+                        </div>
+                        <div class="hero-section-right mt-16">
+                            <div class="vision-animation">
+                                <lottie-player src="./assets/lottieAnimations/vision-animation.json"
+                                background="transparent" speed="1" loop autoplay direction="1" mode="normal" class="vision-animation"></lottie-player>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider 3 -->
+                <div class="swiper-slide">
+                    <div class="hero-section items-center w-10/12 max-w-[1080px]">
+                        <div class="hero-section-left mt-20">
+                            <div class="hero-section-heading vision-heading">MISSION</div>
+                            <div class="hero-section-description">
+                                At Infinity Consultancy, our mission in the near future is to revolutionize the way individuals and businesses approach finance. We are committed to providing cutting-edge solutions and personalized guidance that empower our clients to overcome financial obstacles and seize opportunities for growth. 
+                            </div>
+                        </div>
+                        <div class="hero-section-right mt-16">
+                            <div class="mission-animation">
+                                <lottie-player src="./assets//lottieAnimations/mission-animation.json"
+                                background="transparent" speed="1" loop autoplay direction="1" mode="normal"></lottie-player>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <!-- Enquiry Form -->
+    <section class="bg-deepBlue pb-4">
+        <div class="py-12 bg-grayish flex justify-center"><span class="mx-4 text-2xl font-bold"><i
+                    class="fa-solid fa-circle-dot"></i>&nbsp;ENQUIRY</span></div>
+        <!-- Left Section -->
+        <form class="max-w-md mx-80 my-5 mt-16" id="enquiry">
+            <div class="flex gap-28">
+                <div class="mb-4">
+                    <label for="firstName" class="block text-white font-bold text-[16px]">First Name</label>
+                    <input type="text" id="firstName" name="firstName"
+                        class="bg-[#bcccdc] mt-1 block rounded-md border border-black-300 w-96 py-3 px-3 shadow-2xl focus:border-blue-500 focus:ring-blue-500 placeholder-black"
+                        placeholder="Enter First Name" required>
+                </div>
+                <!-- Add more fields as needed -->
+                <div class="mb-4">
+                    <label for="lastName" class="block text-white font-bold">Last Name</label>
+                    <input type="text" id="lastName" name="lastName"
+                        class="bg-[#bcccdc] mt-1 block w-96 rounded-md border border-block-300 py-3 px-3 shadow-2xl focus:border-blue-500 focus:ring-blue-500 placeholder-black"
+                        placeholder="Enter Last Name" required>
+                </div>
+            </div>
+            <!-- Additional fields -->
+            <div class="flex gap-28">
+                <div class="mb-4">
+                    <label for="email" class="block text-white font-bold">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="bg-[#bcccdc] focus:border-blue-500 focus:ring-blue-500 mt-1 block rounded-md border border-black-300 shadow-2xl py-3 px-3 w-96 placeholder-black"
+                        placeholder="Enter Email" required>
+                </div>
+                <div class="mb-4">
+                    <label for="phone" class="block text-white font-bold">Phone Number</label>
+                    <input type="tel" id="phone" name="phone"
+                        class="bg-[#bcccdc] mt-1 rounded-md shadow-2xl focus:border-blue-500 focus:ring-blue-500 py-3 px-3 w-96 placeholder-black"
+                        placeholder="Enter Phone Number" required>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-white font-bold">Message</label>
+                <textarea id="userMessage" name="userMessage" rows="4"
+                    class="bg-[#bcccdc] mt-1 block w-96 py-3 px-3 rounded-md border-gray-300 shadow-2xl focus:border-blue-500 focus:ring-blue-500 placeholder-black"
+                    placeholder="e.g. want to meet"></textarea>
+            </div>
+            <div class="mb-4 mt-8">
+                <button type="submit"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">Send
+                    message</button>
+            </div>
+        </form>
+
+        <!-- Right Section -->
+        <div class="flex justify-between w-[1080px] mx-auto mt-20" id="Enquiry">
+            <div class="text-white space-y-3">
+                <center><i class="fa-solid fa-phone fa-3x opacity-30"></i></center>
+                <p class=" text-white opacity-70 w-full">Call us, We are always happy to help.</p>
+                <center><a href="tel:8460818184" target="_blank" class="text-lightBlue">8460818184</a></center>
+                <center>
+                    <span class="text-white opacity-70 ">Office Mo:</span><span class="text-lightBlue"> <a
+                            href="tel:9375152535" target="_blank">9375152535</a> </span>
+                </center>
+            </div>
+            <div class="text-white space-y-3">
+                <center><i class="fa-solid fa-location-dot fa-3x opacity-30"></i></center>
+                <p class="text-white opacity-70 w-full">HO: C-50, Shantinagar Township, Station Road, Bilimora(W) -
+                    396321</p>
+                <center>
+                    <p class="text-white opacity-70 w-full">Branch: Vapi | Surat</p>
+                </center>
+            </div>
+            <div class="text-white space-y-3">
+                <center><i class="fa-solid fa-envelope fa-3x opacity-30"></i></center>
+                <p class=" text-white opacity-70 w-full">Email us for general queries.</p>
+                <center><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nevil04@gmail.com" target="_blank"
+                        class="no-underline text-lightBlue">nevil04@gmail.com</a></center>
+                <center>
+                    <span class="text-white opacity-70 ">Office:</span><span class="text-lightBlue"> <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=infinitygst04@gmail.com"
+                            target="_blank"> infinitygst04@gmail.com</a></span>
+                </center>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        centeredSlides: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+      keyboard: {
+        enabled: true,
+      },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+<script type="module" src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+<script>
+    var typeData = new Typed(".role", {
+        strings: [
+            "Tax Consultant",
+            "LIC Agent",
+            "Tax Strategist",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+    });
+</script>
+
+</html>
