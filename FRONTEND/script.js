@@ -80,7 +80,7 @@ console.log(formDataObject)
 
 try {
     // Send form data to backend server
-    const response = await fetch('http://localhost:4000/api/v1/contact', {
+    const response = await fetch('https://infinity-consultancy.vercel.app/api/v1/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
