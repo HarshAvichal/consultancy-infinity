@@ -27,7 +27,7 @@ function showToastError(message){
 
 
 document.getElementById('enquiry').addEventListener('submit', async (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
     // Validate
     const firstNameInput = document.getElementById('firstName');
     const lastNameInput = document.getElementById('lastName');
